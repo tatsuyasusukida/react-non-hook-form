@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gist": "source .env.local && gist -u $GIST_ID -od '📝 How to make a form without react hook form' lib/validate.ts pages/form.tsx"
   },
   "dependencies": {
     "next": "12.2.3",
